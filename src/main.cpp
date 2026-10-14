@@ -67,6 +67,7 @@ void setup() {
       Serial.print(".");
   }
   Serial.println("\nConnected to network!");
+  display.drawString("Connected", 6, 52); 
   Serial.print("ESP32-C6 IP address: ");
   Serial.println(WiFi.localIP());
 
